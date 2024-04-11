@@ -23,7 +23,7 @@ from sklearn.preprocessing import OrdinalEncoder
 
 """**DataBase connection**"""
 
-client=pymongo.MongoClient("mongodb+srv://suryasadasivamm:Surya0807@guvi.yn6kwzt.mongodb.net/?retryWrites=true&w=majority&appName=guvi")
+client=pymongo.MongoClient("your Password")
 
 Vb=client["bank_details"]
 col=Vb["Bank_dataset"]
